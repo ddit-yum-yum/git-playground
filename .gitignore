@@ -1,0 +1,30 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ===== Java / Gradle / Maven =====
+build/
+out/
+.gradle/
+target/
+*.class
+*.log
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# ===== 비밀 설정 (절대 커밋 금지) =====
+.env
+.env.*
+!.env.example
+application-secret.yml
+application-local.yml
